@@ -305,3 +305,4 @@ dsh --profile web --dump-config
 感谢 DeepSeek Harness 团队、Cordis 社区、首批内测开发者，以及所有公开文档、插件、客户端、实践和生态索引的贡献者。
 
 [![滑动变祖器：当前状态为梁子，点击进入完整交互版](assets/media/liang-intensity-calibrator-card-liangzi.png)](https://lichtspektrum.github.io/liang-intensity-calibrator/)
+- [dph-emotion-arc](https://github.com/liuxinxing123/dph-emotion-arc)：情绪弧线导演——文本情绪识别（LLM 精判 BYOK + 词典兜底）→ 显式情绪状态文件（半衰期衰减、换标签迟滞、推断审计日志）→ 对话策略映射，附情绪记忆账本（冲突/和解/安抚）与 SillyTavern V2/V3 角色卡导入（人格感知）；MIT、npm `0.2.0`、29 例单测与冷启动冒烟，声明兼容 DSH `0.1.7`-`0.2.x` 并已在真实 Harness 会话完成全链路实机验收；定位为编剧向叙事工具（合规白名单，非陪伴）。
